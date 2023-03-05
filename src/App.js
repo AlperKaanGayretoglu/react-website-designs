@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.css";
 
 import BasicRegister from "./pages/p1-basic-register";
 import AdvancedRegister from "./pages/p2-advanced-register";
