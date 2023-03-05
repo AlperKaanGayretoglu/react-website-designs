@@ -1,0 +1,30 @@
+.birthday-form {
+    width: 320px;
+}
+
+.title {
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    align-items: center;
+
+    color: #718096;
+
+    margin-bottom: 7px;
+}
+
+.date-inputs > input {
+    width: 56px;
+    height: 48px;
+
+    background: #EDF2F7;
+    border-radius: 8px;
+
+    margin-right: 16px;
+    margin-bottom: 26px;
+
+    border: none;
+
+    text-align: center;
+}

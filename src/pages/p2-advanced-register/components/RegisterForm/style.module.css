@@ -1,0 +1,70 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 36px;
+
+    box-sizing: border-box;
+
+    width: 448px;
+    height: 670px;
+
+    background: #FFFFFF;
+    border: 1px solid #EDF2F7;
+    box-shadow: -5px 10px 20px rgba(188, 192, 196, 0.25);
+    border-radius: 8px;
+}
+
+.company-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 31px;
+}
+
+.register-header {
+    font-size: 18px;
+    font-weight: 700;
+
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+::placeholder {
+    color:rgba(113, 128, 150, 1);
+}
+
+.register-sentence {
+    width: 320px;
+    font-size: 9px;
+
+    margin-bottom: 8px;
+}
+
+.register-sentence > a {
+    color: rgba(217, 0, 0, 1);
+    text-decoration: none;
+}
+
+.register-button {
+    width: 320px;
+    height: 46px;
+
+    padding: 12px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #D90000;
+    border-radius: 8px;
+    border: none;
+
+    font-size: 18px;
+    color: #FFFFFF;
+
+    margin-bottom: 24px;
+}

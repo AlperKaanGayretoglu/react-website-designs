@@ -1,0 +1,21 @@
+:root {
+    --bg: #F1F5F9;
+}
+
+.basic-input {
+    width: 320px;
+    height: 48px;
+}
+
+.basic-input > span {
+    background-color: var(--bg);
+    border: none;
+    padding-left: 15.25px;
+}
+
+.basic-input > input {
+    background-color: var(--bg);
+    border: none;
+
+    padding: 0;
+}

@@ -1,0 +1,26 @@
+.gender-radios {
+    display: flex;
+    width: 320px;
+}
+
+.gender-radio {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.gender-radio > [type="radio"] {
+    width: 20px;
+    height: 20px;
+
+    margin-right: 8px;
+
+    display: flex;
+
+    background: #EDF2F7;
+    border-radius: 10px;
+}
+
+.gender-radio-text {
+    margin-right: 25px;
+    color: #718096;
+}
