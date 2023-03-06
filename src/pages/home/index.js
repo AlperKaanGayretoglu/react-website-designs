@@ -9,6 +9,7 @@ function Home() {
       <nav>
         <Link to="/basic-register">Basic Register</Link>
         <Link to="/advanced-register">Advanced Register</Link>
+        <Link to="/pricing">Pricing</Link>
       </nav>
     </div>
   );
