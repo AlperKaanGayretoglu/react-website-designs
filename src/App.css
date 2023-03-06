@@ -1,16 +1,1 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
-
-.home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.home > nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
