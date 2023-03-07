@@ -1,0 +1,141 @@
+.pricing {
+    font-family: 'Montserrat';
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 210px;
+
+}
+
+.pricing-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 124px;
+    margin-bottom: 32px;
+}
+
+.pricing-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.pricing-messages{
+    margin-left: auto;
+}
+
+.pricing-save{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #999999;
+}
+
+.pricing-choices {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: rgba(153, 153, 153, 1);
+
+    margin-left: 16px;
+}
+
+.pricing-choices > span {
+    color: black;
+    text-decoration: none;
+    text-underline-offset: 6px;
+}
+
+.pricing-choices > span[class="active"] {
+    text-decoration: underline;
+    text-decoration-color: rgba(84, 36, 243, 1);
+}
+
+.payment-plans {
+    display: flex;
+    margin-bottom: 66.25px;
+}
+
+.payment-plans > div + div {
+    margin-left: 24px;
+}
+
+
+.free-plan {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    margin-bottom: 76px;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 24px;
+}
+
+.title-wrapper > svg {
+    margin-bottom: 18.25px;
+}
+
+
+
+.faq {
+    display: flex;
+    flex-direction: column;
+
+    padding: 36px;
+    margin-bottom: 195px;
+
+    border: 6px solid #F6F9FC;
+    border-radius: 6px;
+}
+
+.faq-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    margin-bottom: 32px;
+}
+
+.faq-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-element + .faq-element {
+    margin-top: 24px;
+}
+
+.faq-question {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-bottom: 8px;
+}
+
+.faq-answer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #999999;
+}
+
+.faq-answer > a {
+    font-weight: 700;
+    color: #999999;
+}
