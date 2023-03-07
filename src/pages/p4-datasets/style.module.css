@@ -1,0 +1,125 @@
+.datasets {
+    background: #F6F9FF;
+
+    font-family: 'Montserrat';
+
+    height: 100vh;
+}
+
+.datasets-header {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(188, 192, 196, 0.25);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 40px;
+}
+
+.datasets-header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datasets-header-left > span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #444D5A;
+
+    margin-right: 48px;
+}
+
+.datasets-header-left > div {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #444D5A;
+
+    margin-right: 32px;
+}
+
+.datasets-header-left > div > svg {
+    margin-right: 8px;
+}
+
+.datasets-header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 16px;
+
+    background: #F6F9FF;
+    border-radius: 4px;
+}
+
+.datasets-header-right > svg {
+    margin-right: 12px;
+}
+
+.datasets-header-right > span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #444D5A;
+}
+
+
+.datasets-content {
+    padding: 29px 75px;
+}
+
+.datasets-content-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-bottom: 16px;
+}
+
+.datasets-content-title > span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #444D5A;
+}
+
+.datasets-upload-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 20px;
+    gap: 10px;
+
+    background: #104274;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+
+    width: 121px;
+    height: 40px;
+}
+
+.datasets-upload-button > span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.datasets-content > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #444D5A;
+}

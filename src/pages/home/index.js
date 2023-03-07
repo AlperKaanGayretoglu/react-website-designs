@@ -10,6 +10,7 @@ function Home() {
         <Link to="/basic-register">Basic Register</Link>
         <Link to="/advanced-register">Advanced Register</Link>
         <Link to="/pricing">Pricing</Link>
+        <Link to="/datasets">Datasets</Link>
       </nav>
     </div>
   );

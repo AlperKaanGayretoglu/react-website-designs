@@ -1,0 +1,37 @@
+.data-table-row {
+    display: flex;
+
+    padding-top: 16px;
+    padding-bottom: 17px;
+
+    border-bottom: 1px solid #E3E7F0;
+
+    font-size: 18px;
+}
+
+.data-table-row > div {
+    display: flex;
+}
+
+.data-table-head {
+    display: flex;
+
+    padding-top: 16px;
+    padding-bottom: 17px;
+
+    border-bottom: 1px solid #E3E7F0;
+
+    font-size: 18px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+
+    padding-top: 19px;
+    padding-bottom: 18px;
+}
+
+.data-table-row > .different {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+}
